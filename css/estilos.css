@@ -1,0 +1,255 @@
+
+body
+    {
+        background-color: rgb(146, 141, 141);
+        display:flex;
+        justify-content : center;       /*Responsive horizontal el hijo el header*/
+        align-items: center;            /*Responsive vertical el hijo el header*/
+    }
+
+header
+    {
+        display:flex;
+        color: white;                 /*Color de la letra en blanco*/
+        background-color:black;       /*Todo el fondo Header negro*/
+        justify-content : center;       /*Movimiento Horizontal - Responsive*/
+        width:45%;                      
+        align-items: center;            /*Movimiento vertical - Responsive*/
+    }
+nav
+    {
+        /*NAV PADRE DE TODOS LOS CONTENEDORES DIV*/
+        
+        width: 1280px;                  /*Tamaño de Samnsung A5 */
+        height: 720px;                 /*Tamaño de Samnsung A5 */
+        display:flex;   
+        flex-direction: column;
+        justify-content : center;       /*Responsive horizontal el hijo los hijos "DIV-ID" del "NAV"*/
+        align-items: left;            /*Responsive vertical el hijo el header*/
+        font-family: Arial;
+
+    }
+
+
+
+/*------ RELOJ MUNDIAL ------*/
+
+
+#Reloj_Mundial
+    {
+        padding: 1rem;
+        font-size: 4rem;
+    }
+
+
+
+/*------ MADRID ------*/
+
+
+/*CONTENEDOR GENERAL*/
+#Contenedor_Madrid
+    {
+        display:flex;
+        justify-content : space-between;
+    }
+
+
+/*CONTENEDOR TITULO Y DIFERENCIA HORARIA*/
+#Contenedor_Titulo_Madrid_Diferencia_horaria
+    {
+        align-items: center;
+        text-align: left;
+        padding: 1rem;                
+    }
+
+
+#Madrid_Diferencia_Horaria
+    {
+        font-size: 1.3rem;
+    }
+
+#Titulo_Madrid
+    {
+        font-size: 2.4rem;
+    }
+
+
+/*ID DE FUNCIÓN HORARIA JAVASCRIPT*/
+#Horario_Madrid
+    {
+        padding: 1rem;
+        font-size: 4.5rem;
+    }
+
+
+
+
+
+
+
+/*------ LONDRES ------*/
+
+#Contenedor_Londres
+    {
+        display:flex;
+        font-size: 2rem;
+        justify-content : space-between;      
+        
+    }
+
+
+
+/*CONTENEDOR TITULO Y DIFERENCIA HORARIA*/
+#Contenedor_Titulo_Londres_Diferencia_horaria
+    {
+        align-items: center;
+        text-align: left;
+        padding: 1rem;                
+    }
+
+
+#Londres_Diferencia_Horaria
+    {
+        font-size: 1.3rem;
+    }
+
+
+#Titulo_Londres
+    {
+        font-size: 2.4rem;
+    }
+
+#Horario_Londres
+    {
+        padding: 1rem;
+        font-size: 4.5rem;
+    }
+ 
+
+
+
+/*------ LOS ANGELES ------*/
+
+
+/*CONTENEDOR GENERAL*/
+#Contenedor_Los_Angeles
+    {
+        display:flex;
+        font-size: 2rem;
+        justify-content : space-between;      
+        
+    }
+
+
+/*CONTENEDOR TITULO Y DIFERENCIA HORARIA*/
+#Contenedor_Titulo_Los_Angeles_Diferencia_horaria
+    {
+        align-items: center;
+        text-align: left;
+        padding: 1rem;                
+    }
+
+
+#Los_Angeles_Diferencia_Horaria
+    {
+        font-size: 1.3rem;
+    }
+    
+#Titulo_Los_Angeles
+    {
+        font-size: 2.4rem;
+    }
+
+#Horario_Los_Angeles
+    {
+        padding: 1rem;
+        font-size: 4.5rem;
+    }
+
+
+
+
+
+/*------ NUEVA YORK ------*/
+
+
+/*CONTENEDOR GENERAL*/
+#Contenedor_Nueva_York
+    {
+        display:flex;
+        font-size: 2rem;
+        justify-content : space-between;      
+        
+    }
+
+
+
+/*CONTENEDOR TITULO Y DIFERENCIA HORARIA*/
+#Contenedor_Titulo_Nueva_York_Diferencia_horaria
+    {
+        align-items: center;
+        text-align: left;
+        padding: 1rem;                
+    }
+
+
+#Nueva_York_Diferencia_Horaria
+    {
+        font-size: 1.3rem;
+    }
+
+
+#Titulo_Nueva_York
+    {
+        font-size: 2.3rem;
+    }
+
+#Horario_Nueva_York
+    {
+        padding: 1rem;
+        font-size: 4.5rem;
+    }
+
+
+
+
+
+
+/*------ SIDNEY ------*/
+
+
+/*CONTENEDOR GENERAL*/
+#Contenedor_Sidney
+    {
+        display:flex;
+        font-size: 2rem;
+        justify-content : space-between;      
+    }
+
+
+
+/*CONTENEDOR TITULO Y DIFERENCIA HORARIA*/
+#Contenedor_Titulo_Sidney_Diferencia_horaria
+    {
+        align-items: center;
+        text-align: left;
+        padding: 1rem;                
+    }
+
+
+#Signey_Diferencia_Horaria
+    {
+        font-size: 1.3rem;
+    }
+
+
+#Titulo_Sidney
+    {
+        font-size: 2.4rem;
+    }
+
+#Horario_Sidney
+    {
+        padding: 1rem;
+        font-size: 4.5rem;
+    }
